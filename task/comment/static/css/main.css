@@ -1,0 +1,51 @@
+
+        .highlight {
+          background: #0e2f5a;
+          color: #f4b21b;
+        }
+        #myVideo{
+            width: 640px;
+            height:368px;
+            float:left;
+            margin-top:100px;
+            margin-left: 50px;
+            background-color:#75A96F;
+            padding: 0;
+        }
+        #transcriptContainer {
+            float: left;
+            margin-left: 20px;
+            overflow-y: auto;
+            margin-top:50px;
+            width:600px;
+            height:800px;
+        }
+        #commentContainer{
+            float:left;
+            margin-left:70px;
+            width:300px;
+            height:800px;
+        }
+        #transcriptText {
+            padding: 10px;
+            background-color: #faf9f8;
+            border: 1px solid black;
+        }
+        #eye-gaze{
+            float:left;
+            margin-left:100px;
+            position: absolute;
+            top: 500px;
+        }
+
+        .makeComment{
+            resize: none;
+        }
+
+        .comment , .moved{
+            resize: none;
+            width: 300px;
+            height:50px;
+            border-radius: 10px;
+            white-space: pre-line;
+        }
